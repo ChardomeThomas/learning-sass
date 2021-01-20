@@ -1,0 +1,24 @@
+{
+  "name": "learning-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch src/scss -o src/css --source-map true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChardomeThomas/learning-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChardomeThomas/learning-sass/issues"
+  },
+  "homepage": "https://github.com/ChardomeThomas/learning-sass#readme",
+  "dependencies": {
+    "har-validator": "^5.1.5",
+    "node-sass": "^5.0.0"
+  }
+}
